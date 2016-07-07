@@ -17,7 +17,7 @@ module OmniAuth
       }
 
       option :authorize_params, {
-        :scope => 'profile postal_code'
+        :scope => 'profile postal_code prime:benefit_status'
       }
 
       def build_access_token
